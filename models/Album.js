@@ -44,7 +44,7 @@ const albums = [
 ];
 
 const getAlbums = async function () {
-  return Promise.resolve(albums);
+  return []; // Promise.resolve(albums);
 };
 
 exports.getAlbums = getAlbums;
